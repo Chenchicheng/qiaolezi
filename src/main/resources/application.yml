@@ -1,10 +1,9 @@
-
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://10.0.224.6:3306/qiaolezi?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT
-    username: root
-    password: yEu3cCZB
+    url: jdbc:mysql://${MYSQL_ADDRESS}/${MYSQL_DATABASE:qiaolezi}
+    username: ${MYSQL_USERNAME}
+    password: ${MySQL_PASSWORD}
 
   jpa:
     hibernate:
