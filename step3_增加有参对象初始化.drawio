@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T02:17:35.030Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ZOUsrszvosQf2A5Bs-lG" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-06T02:21:52.276Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="RLOHFfK1PolZjE2oXMXZ" version="20.8.16" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="LQUSDKsi27UiTHR2LXb1-13" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#009900;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="810" y="800" width="340" height="140" as="geometry" />
-        </mxCell>
         <mxCell id="sI2XtZQbdFrjad-43Lmu-18" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;BeanFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getBean(String beanName): Obj&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getBean(String beanName, Obj... args): Obj&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="485" y="250" width="210" height="80" as="geometry" />
         </mxCell>
@@ -64,37 +61,37 @@
         <mxCell id="sI2XtZQbdFrjad-43Lmu-43" value="+ creatBean(String beanName, BeanDefinition bd): Obj" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=default;" parent="sI2XtZQbdFrjad-43Lmu-39" vertex="1">
           <mxGeometry y="60" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sI2XtZQbdFrjad-43Lmu-44" value="+ creatBean(String beanName, BeanDefinition beanDefinition, Object[] args)&#xa;: Obj" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" parent="sI2XtZQbdFrjad-43Lmu-39" vertex="1">
+        <mxCell id="sI2XtZQbdFrjad-43Lmu-44" value="+ creatBean(String beanName, BeanDefinition beanDefinition, Object[] args)&#xa;: Obj" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#009900;" parent="sI2XtZQbdFrjad-43Lmu-39" vertex="1">
           <mxGeometry y="86" width="240" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="sI2XtZQbdFrjad-43Lmu-47" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;InstantiationStrategy&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ instantiate(BeanDefinition beanDefinition,&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;String beanName, Constructor ctor,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;Object[] args)：Object&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="sI2XtZQbdFrjad-43Lmu-47" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;InstantiationStrategy&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ instantiate(BeanDefinition beanDefinition,&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;String beanName, Constructor ctor,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;Object[] args)：Object&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#009900;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="830" y="520" width="190" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="sI2XtZQbdFrjad-43Lmu-48" value="SimpleInstantiationStrategy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="sI2XtZQbdFrjad-43Lmu-48" value="SimpleInstantiationStrategy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#009900;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="810" y="673" width="210" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="sI2XtZQbdFrjad-43Lmu-50" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontColor=#000000;" parent="sI2XtZQbdFrjad-43Lmu-48" vertex="1">
+        <mxCell id="sI2XtZQbdFrjad-43Lmu-50" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontColor=#009900;" parent="sI2XtZQbdFrjad-43Lmu-48" vertex="1">
           <mxGeometry y="26" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="sI2XtZQbdFrjad-43Lmu-51" value="+ instantiate(BeanDefinition beanDefinition, &#xa;String beanName, Constructor ctor,&#xa; Object[] args)：Object" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" parent="sI2XtZQbdFrjad-43Lmu-48" vertex="1">
+        <mxCell id="sI2XtZQbdFrjad-43Lmu-51" value="+ instantiate(BeanDefinition beanDefinition, &#xa;String beanName, Constructor ctor,&#xa; Object[] args)：Object" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#009900;" parent="sI2XtZQbdFrjad-43Lmu-48" vertex="1">
           <mxGeometry y="34" width="210" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="sI2XtZQbdFrjad-43Lmu-52" value="CglibSubclassingInstantiationStrategy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="sI2XtZQbdFrjad-43Lmu-52" value="CglibSubclassingInstantiationStrategy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#009900;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1070" y="674.5" width="270" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="sI2XtZQbdFrjad-43Lmu-54" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontColor=#000000;" parent="sI2XtZQbdFrjad-43Lmu-52" vertex="1">
+        <mxCell id="sI2XtZQbdFrjad-43Lmu-54" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontColor=#009900;" parent="sI2XtZQbdFrjad-43Lmu-52" vertex="1">
           <mxGeometry y="26" width="270" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="sI2XtZQbdFrjad-43Lmu-55" value="+ instantiate(BeanDefinition beanDefinition, &#xa;String beanName, Constructor ctor,&#xa; Object[] args)：Object" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" parent="sI2XtZQbdFrjad-43Lmu-52" vertex="1">
+        <mxCell id="sI2XtZQbdFrjad-43Lmu-55" value="+ instantiate(BeanDefinition beanDefinition, &#xa;String beanName, Constructor ctor,&#xa; Object[] args)：Object" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#009900;" parent="sI2XtZQbdFrjad-43Lmu-52" vertex="1">
           <mxGeometry y="34" width="270" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="sI2XtZQbdFrjad-43Lmu-56" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontColor=#000000;exitX=0.442;exitY=0.006;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sI2XtZQbdFrjad-43Lmu-48" target="sI2XtZQbdFrjad-43Lmu-47" edge="1">
+        <mxCell id="sI2XtZQbdFrjad-43Lmu-56" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontColor=#009900;exitX=0.442;exitY=0.006;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sI2XtZQbdFrjad-43Lmu-48" target="sI2XtZQbdFrjad-43Lmu-47" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="950" y="640" as="sourcePoint" />
             <mxPoint x="1110" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sI2XtZQbdFrjad-43Lmu-57" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontColor=#000000;exitX=0.442;exitY=0.006;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.996;entryY=0.43;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="sI2XtZQbdFrjad-43Lmu-47" edge="1">
+        <mxCell id="sI2XtZQbdFrjad-43Lmu-57" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontColor=#009900;exitX=0.442;exitY=0.006;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.996;entryY=0.43;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="sI2XtZQbdFrjad-43Lmu-47" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1152.8600000000001" y="674.4999999999999" as="sourcePoint" />
             <mxPoint x="1147.1399999999999" y="611.14" as="targetPoint" />
@@ -115,34 +112,13 @@
             <mxPoint x="700" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sI2XtZQbdFrjad-43Lmu-68" value="+ creatBean(String beanName, BeanDefinition bd,&#xa; Obj[] args): Obj（实现）&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="sI2XtZQbdFrjad-43Lmu-68" value="+ creatBean(String beanName, BeanDefinition bd,&#xa; Obj[] args): Obj（实现）&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#009900;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="450" y="630" width="430" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LQUSDKsi27UiTHR2LXb1-0" value="&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font color=&quot;#009900&quot;&gt;+ applyPropertyValues(String beanName, Object bean, BeanDefinition beanDefinition)&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="450" y="660" width="290" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="LQUSDKsi27UiTHR2LXb1-1" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontColor=#000000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sI2XtZQbdFrjad-43Lmu-32">
+        <mxCell id="LQUSDKsi27UiTHR2LXb1-1" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontColor=#009900;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sI2XtZQbdFrjad-43Lmu-32">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="650" y="590" as="sourcePoint" />
             <mxPoint x="550" y="700" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LQUSDKsi27UiTHR2LXb1-2" value="PropertyValue" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;fontColor=#009900;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="850" y="850" width="140" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="LQUSDKsi27UiTHR2LXb1-3" value="+ name: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#009900;" vertex="1" parent="LQUSDKsi27UiTHR2LXb1-2">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="LQUSDKsi27UiTHR2LXb1-4" value="+ value: Object" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#009900;" vertex="1" parent="LQUSDKsi27UiTHR2LXb1-2">
-          <mxGeometry y="52" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="LQUSDKsi27UiTHR2LXb1-10" value="«interface»&lt;br&gt;&lt;b&gt;BeanReference&lt;/b&gt;" style="html=1;strokeColor=#000000;fontColor=#009900;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1023" y="850" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="LQUSDKsi27UiTHR2LXb1-11" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;fontColor=#009900;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LQUSDKsi27UiTHR2LXb1-13" target="LQUSDKsi27UiTHR2LXb1-0">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="880" y="840" as="sourcePoint" />
-            <mxPoint x="810" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
